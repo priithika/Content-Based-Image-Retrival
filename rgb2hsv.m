@@ -1,0 +1,16 @@
+c = imread('C:\Users\hp\Desktop\red-apple-fruit.jpg');
+hsv=rgb2hsv(c);
+ycbcr=rgb2ycbcr(c);
+yiq=rgb2ntsc(c);
+subplot(2, 2, 1);
+imshow(c);
+title('RGB IMAGE');
+subplot(2, 2, 2);
+imshow(hsv);
+title('HSV IMAGE');
+subplot(2, 2, 3);
+imshow(ycbcr);
+title('YCBCR IMAGE');
+subplot(2, 2, 4);
+imshow(yiq);
+title('YIQ IMAGE');

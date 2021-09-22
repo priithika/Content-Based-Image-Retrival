@@ -4,3 +4,4 @@
 * rgb2hsv - Converting an image from RGB to HSV and other possible models and back to RGB using built in functions
 * Roberts Edge Detection Technique on Standard Lenna Image
 * Prewitts Edge Detection Technique on Standard Lenna Image
+* Sobel Edge Detection Technique
